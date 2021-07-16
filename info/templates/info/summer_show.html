@@ -5,7 +5,7 @@ Summer Show | {{ block.super }}
 {% endblock title %}
 
 {% block content %}
-	<div class="summer-head">
+	<div class="summer-head" id="top">
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="info2">
@@ -151,7 +151,7 @@ Summer Show | {{ block.super }}
 
 {{ events.content | safe }}
 
-	<div class="summer-show-info">
+	<div class="summer-show-info" style="margin-top: 15px;">
         <div class="summer-map">
 			<h1>Summer Show Map</h1>
 			<img src="https://winamac.s3.us-east-2.amazonaws.com/Tractor+Show/summer-map.png">
@@ -161,14 +161,16 @@ Summer Show | {{ block.super }}
 		<div class="body">
 		   {{ info.content | safe }}
 		</div>
-		
+		<!--
         <div id="summer-directions">
             <h2><strong>Directions</strong></h2>
             <h4>10 City Park Drive<br> Winamac, IN 46996</h4>
 
             <iframe class="map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=10%20City%20Par%20Drive%20Winamac%2C%20IN%2046996&key=AIzaSyCZfrvKZEGslRl7CkrXd7be7DVXLWBgVQU" allowfullscreen></iframe> 
-        </div>
+        </div>-->
 
 	</div>
 
+	<a href=#top style="margin-bottom: 10px;">Back to the top</a>
+	<br>
 {% endblock content %}
