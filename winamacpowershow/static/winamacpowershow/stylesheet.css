@@ -18,7 +18,7 @@ nav a {
     color: black !important;
 }
 
-nav img {
+nav img.nav-image {
     height: 60px;
     width: auto;
     background-color: white;
@@ -41,6 +41,17 @@ h1, h2 {
     font-family: 'Fjalla One', sans-serif;
 }
 
+img.facebook {
+    padding: 0;
+    margin: 0;
+}
+
+
+nav li.nav-item img.facebook
+{
+    width: 42px;
+}
+
 .dropdown-menu {
     display: none;
 }
@@ -53,6 +64,7 @@ h1, h2 {
 	background-size: 97em 35em;
 	background-repeat: no-repeat;
     border-radius: 0;
+    background-position: center center;
 }
 
 .jumbotron img {
@@ -62,18 +74,24 @@ h1, h2 {
     width: auto;
     border: 1px solid black;
     background-color: white;
+    
 }
 
 .tractor-brand {
     margin: .5em 0;
 }
 
+.toy-show h2,
 .update-container h2,
 .tractor-brand h2,
 .philosophy h2,
 .scholarships h2 {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
+}
+
+.toy-show {
+    text-align: center;
 }
 
 .philosophy,
@@ -326,7 +344,7 @@ iframe {
     
     .image-row-1 {
         padding: 1em;
-    }
+    }.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000............00
 }
 
 @media screen and (max-width: 993px) {
