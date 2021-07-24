@@ -221,7 +221,7 @@ table.daily-events td {
 }
 
 .image-row-1 {
-    border-bottom: 1px solid grey
+    border-bottom: 1px solid grey;
     padding: 2em 0;
 }
 
@@ -344,7 +344,7 @@ iframe {
     
     .image-row-1 {
         padding: 1em;
-    }.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000............00
+    }
 }
 
 @media screen and (max-width: 993px) {
